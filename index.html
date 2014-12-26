@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mofafix</title>
+    <link rel="stylesheet" href="css/mofafix.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-wrap">
+            <div class="box">
+                <p></p>
+            </div>
+        </div>
+        <div class="right-wrap">
+            <div class="intro">
+                <h1>Mofa Fix</h1>
+                <ul class="intro-list">
+                    <li>当用鼠标滚动浏览页面中带滚动条的元素时，一旦该元素的滚动条滚到尽头，但用户仍在该元素上滚动鼠标滚轮，则该元素所在的页面也会开始滚动。使用该 jQuery 插件能够阻止这种行为，以获得更自然合理的浏览体验。</li>
+                    <li>已测试过的浏览器：<br>IE9+, Chrome, Firefox, Opera</li>
+                    <li><a class="link" href="#">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/wheel.js"></script>
+    <script src="js/mofafix.min.js"></script>
+    <script>
+    $('.box').mofafix();
+    </script>
+</body>
+
+</html>

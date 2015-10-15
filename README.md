@@ -5,7 +5,7 @@ Mofa Fix
 
 ##Demo
 
-[戳这里](http://0q0.github.io/mofa-bar/)
+[戳这里](http://0q0.github.io/mofa-fix/)
 
 ## Quick start
 

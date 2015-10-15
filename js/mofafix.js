@@ -15,8 +15,8 @@
 
         var direction = e.deltaY, //滚动条向上移动时>0,向下移动时<0
 
-            //滚动条到底时
-            bottom = this.scrollTop + $(this).outerHeight() - this.scrollHeight >= 0,
+            // 滚动条到底时
+            bottom = this.scrollHeight - this.scrollTop === this.clientHeight,
             
             //滚动条到顶时
             top = this.scrollTop <= 0;
